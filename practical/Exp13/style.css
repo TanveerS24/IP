@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff1f2;
+    color: #881337;
+}
+.hero {
+    padding: 42px 8%;
+    background: #9f1239;
+    color: white;
+}
+.hero h1 {
+    margin: 8px 0;
+    font-size: 2.3rem;
+}
+.hero p {
+    max-width: 650px;
+    line-height: 1.5;
+}
+.eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+main {
+    width: min(850px, 92%);
+    margin: 28px auto;
+}
+.panel {
+    background: #ffffff;
+    color: #881337;
+    padding: 26px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+    margin-bottom: 22px;
+}
+h2, h3 {
+    margin-top: 0;
+}
+label {
+    display: block;
+    margin: 14px 0;
+    font-weight: bold;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font: inherit;
+}
+textarea {
+    min-height: 75px;
+    resize: vertical;
+}
+button {
+    border: 0;
+    border-radius: 7px;
+    padding: 11px 18px;
+    background: #e11d48;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.88;
+}
+.secondary {
+    background: #9f1239;
+}
+.hidden {
+    display: none;
+}
+.muted {
+    opacity: 0.72;
+}
+.message {
+    min-height: 20px;
+    font-weight: bold;
+}
+.search {
+    margin-bottom: 14px;
+}
+.option-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 12px;
+    margin-bottom: 26px;
+}
+.option-card {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e11d48;
+    background: #fff1f2;
+}
+.option-card h4 {
+    margin: 0 0 7px;
+}
+.dashboard-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.submission-list {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+@media (max-width: 520px) {
+    .hero { padding: 30px 6%; }
+    .hero h1 { font-size: 1.8rem; }
+    .panel { padding: 18px; }
+    .dashboard-head { align-items: flex-start; }
+}

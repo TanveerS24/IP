@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management | Experiment 22</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <p class="eyebrow">INTERNET PROGRAMMING · EXPERIMENT 22</p>
+        <h1>Waste Management</h1>
+        <p>Report waste issues and view sample collection information.</p>
+    </header>
+
+    <main>
+        <section class="panel" id="loginPanel">
+            <h2>Welcome back</h2>
+            <p class="muted">Login to continue. Demo: <b>student</b> / <b>1234</b></p>
+            <form id="loginForm">
+                <label>Username<input id="username" required></label>
+                <label>Password<input id="password" type="password" required></label>
+                <button type="submit">Login</button>
+            </form>
+            <p id="loginMessage" class="message"></p>
+        </section>
+
+        <section class="panel hidden" id="dashboard">
+            <div class="dashboard-head">
+                <div><h2>Dashboard</h2><p id="welcome" class="muted"></p></div>
+                <button id="logoutButton" class="secondary">Logout</button>
+            </div>
+            <h3>Explore options</h3>
+            <input id="searchInput" class="search" placeholder="Search options...">
+            <div id="optionList" class="option-list"></div>
+
+            <h3>Submit details</h3>
+            <form id="detailsForm">
+                <label>Bin location<input name="field1" required></label>
+<label>Waste type<input name="field2" required></label>
+<label>Description<textarea name="field3" required></textarea></label>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMessage" class="message"></p>
+            <h3>Recent submissions</h3>
+            <ul id="submissionList" class="submission-list"></ul>
+        </section>
+    </main>
+    <footer>Experiment 22 · Beginner HTML, CSS and JavaScript demo</footer>
+    <script src="script.js"></script>
+</body>
+</html>

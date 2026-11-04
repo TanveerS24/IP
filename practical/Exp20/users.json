@@ -1,0 +1,31 @@
+{
+    "users": [
+        {
+            "username": "student",
+            "password": "1234",
+            "role": "user"
+        },
+        {
+            "username": "admin",
+            "password": "admin123",
+            "role": "admin"
+        }
+    ],
+    "options": [
+        {
+            "id": 1,
+            "name": "Car",
+            "description": "Sample RentRide car option"
+        },
+        {
+            "id": 2,
+            "name": "SUV",
+            "description": "Sample RentRide suv option"
+        },
+        {
+            "id": 3,
+            "name": "Truck",
+            "description": "Sample RentRide truck option"
+        }
+    ]
+}
