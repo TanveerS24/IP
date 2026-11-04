@@ -1,0 +1,23 @@
+<students>
+<student>
+<id>S101</id>
+<name>Arun Kumar</name>
+<department>CSE</department>
+<year>2</year>
+<cgpa>8.4</cgpa>
+</student>
+<student>
+<id>S102</id>
+<name>Priya Devi</name>
+<department>ECE</department>
+<year>3</year>
+<cgpa>9.1</cgpa>
+</student>
+<student>
+<id>S103</id>
+<name>Kavin Raj</name>
+<department>EEE</department>
+<year>1</year>
+<cgpa>8.0</cgpa>
+</student>
+</students>

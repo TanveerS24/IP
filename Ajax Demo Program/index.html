@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX JSON XML Student Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Student Information Search</h1>
+
+    <p>
+      Enter a Student ID and load the same student data
+      from either a JSON file or an XML file using AJAX.
+    </p>
+
+    <label for="studentId">Student ID</label>
+    <input type="text" id="studentId" placeholder="Example: S101">
+
+    <div class="buttons">
+      <button onclick="loadFromJSON()">Load from JSON</button>
+      <button onclick="loadFromXML()">Load from XML</button>
+    </div>
+
+    <section id="result">
+      <h2>Result</h2>
+      <p>Student details will appear here.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

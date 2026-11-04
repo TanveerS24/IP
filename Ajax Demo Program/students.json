@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "id": "S101",
+      "name": "Arun Kumar",
+      "department": "CSE",
+      "year": 2,
+      "cgpa": 8.4
+    },
+    {
+      "id": "S102",
+      "name": "Priya Devi",
+      "department": "ECE",
+      "year": 3,
+      "cgpa": 9.1
+    },
+    {
+      "id": "S103",
+      "name": "Kavin Raj",
+      "department": "EEE",
+      "year": 1,
+      "cgpa": 8.0
+    }
+  ]
+}
